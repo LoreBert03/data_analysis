@@ -4,7 +4,8 @@ Some projects that may be useful in order to get something about me.
 
 # 1. GRB 211211A Data Analysis
 
-This project analyzes gamma-ray burst GRB 211211A using real data from the Fermi GBM telescope.
+This project uses real astrophysical data from the Fermi Gamma-ray Space Telescope,
+processed using the official Fermi Science Tools environment.
 
 ## Goals
 - Extract and clean astrophysical data
@@ -32,3 +33,12 @@ This project analyzes gamma-ray burst GRB 211211A using real data from the Fermi
 ```bash
 pip install -r requirements.txt
 jupyter notebook
+
+## Environment
+
+This analysis was developed using the official Fermi Science Tools environment (`fermienv`),
+which ensures compatibility between scientific libraries (NumPy, Matplotlib, etc.).
+
+Because of this, exact package versions are managed internally by the Fermi environment.
+
+The provided `requirements.txt` is only indicative for running simplified parts of the analysis.
