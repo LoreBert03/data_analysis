@@ -29,11 +29,6 @@ processed using the official Fermi Science Tools environment.
 - `data/`: input data
 - `results/`: plots and outputs
 
-## How to run
-```bash
-pip install -r requirements.txt
-jupyter notebook
-
 ## Environment
 
 This analysis was developed using the official Fermi Science Tools environment (`fermienv`),
@@ -42,3 +37,10 @@ which ensures compatibility between scientific libraries (NumPy, Matplotlib, etc
 Because of this, exact package versions are managed internally by the Fermi environment.
 
 The provided `requirements.txt` is only indicative for running simplified parts of the analysis.
+
+## How to run
+```bash
+pip install -r requirements.txt
+jupyter notebook
+
+
